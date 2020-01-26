@@ -1,0 +1,19 @@
+{
+  "name": "test_generate_app",
+  "version": "1.0.0",
+  "description": "My hunky-dory Nuxt.js project",
+  "author": "Guillaume Le Maout",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.9.3",
+    "axios": "^0.19.2",
+    "nuxt": "^2.0.0"
+  },
+  "devDependencies": {}
+}
