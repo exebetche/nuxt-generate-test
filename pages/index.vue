@@ -1,10 +1,5 @@
 <template>
   <div>
-    <h1>Welcome!</h1>
-    <nuxt-link to="/about">
-      About Page
-    </nuxt-link>
-
     <div style="text-align: center;">
       <a class="button"
       href="#"
@@ -31,8 +26,7 @@ export default {
 
       })
       .then(function (resp) {
-
-        console.log('generate', resp.data)
+        console.log('generate', resp)
       })
     }
   }
